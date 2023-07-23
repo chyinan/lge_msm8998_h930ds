@@ -1250,8 +1250,8 @@ yyparse (void)
   int yytoken = 0;
   /* The variables used to return semantic value and location from the
      action routines.  */
-  extern YYSTYPE yyval;
-  rxtern YYLTYPE yyloc;
+  extern YYSTYPE yylval;
+  extern YYLTYPE yylloc;
 
 #if YYERROR_VERBOSE
   /* Buffer for error messages, and its allocated size.  */
